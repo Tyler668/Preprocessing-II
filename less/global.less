@@ -44,3 +44,16 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+
+.btn{
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  .buttonStyle(@button-bg,1.5rem);
+
+  &:hover{
+    background: darken(@eastern-blue, 10%);
+  }
+}
