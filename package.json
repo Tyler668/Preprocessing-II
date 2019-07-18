@@ -1,0 +1,26 @@
+{
+  "name": "Preprocessing-II",
+  "version": "1.0.0",
+  "description": "Fun Bus is a travel agency looking for some help on their website.  They want a new navigation, new header, and new buttons on the home page. They also want a mobile version of their site styled.  Use your preprocessing knowledge to accomplish their tasks.",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "less": "^3.9.0",
+    "less-watch-compiler": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tyler668/Preprocessing-II.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tyler668/Preprocessing-II/issues"
+  },
+  "homepage": "https://github.com/Tyler668/Preprocessing-II#readme"
+}
