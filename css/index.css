@@ -170,7 +170,9 @@ img {
 }
 .btn {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  padding-right: 0;
+  margin-right: 0;
 }
 button {
   background: #17A2B8;
@@ -183,7 +185,6 @@ button {
   color: white;
   border-radius: 10px;
   border: none;
-  margin: 10px;
 }
 button:hover {
   background: #117a8b;
@@ -401,4 +402,32 @@ button:hover {
 }
 .home img:hover {
   transform: rotate(360deg);
+}
+.home #snippet {
+  border-top: 2px dashed #C0C0C0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 30px 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.home .contactForm {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
+  align-content: center;
+  flex-flow: column;
+}
+.home .contactForm h2 {
+  display: flex;
+}
+.home .contactForm form {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+}
+.home .contactForm #last {
+  height: 100px;
 }
